@@ -68,10 +68,20 @@ function MainContent(){
 
 
 
-ReactDOM.render(
-    <div>
-        <Navbar />
-        <MainContent />
-    </div>,
-    document.getElementById("root")
-)
+// ReactDOM.render(
+//     <div>
+//         <Navbar />
+//         <MainContent />
+//     </div>,
+//     document.getElementById("root")
+// )
+
+
+
+//# challenge: recreate above line in vanilla JS (Imperative programming)
+//# telling it what to do step by step
+const root = document.getElementById('root')
+const h1 = document.createElement('h1')
+h1.textContent = "This is how imperative programming works"
+h1.className = "header"
+root.append(h1)

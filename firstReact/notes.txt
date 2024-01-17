@@ -1,2 +1,3 @@
 React:
 * React has the ability to compress html code into custom html elements, e.g. <myHeader/> --> holds all the html code for a custom header made by the designer
+* React is declarative, "tell the program what should be done, instead of how"
